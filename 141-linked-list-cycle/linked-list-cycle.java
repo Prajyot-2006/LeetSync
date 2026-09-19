@@ -3,6 +3,7 @@ public class Solution {
         ListNode s = head;
         ListNode f = head;
         while(f!=null && f.next!=null) {
+            if(s.next==null) return false;
             s = s.next;
             f = f.next.next;
             if(f==s) return true;
