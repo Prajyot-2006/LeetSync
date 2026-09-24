@@ -34,8 +34,8 @@ class Solution {
             s = s.next;
             f = f.next.next;
         }
+        
         // now break the LL before s and reverse the list from s
-
         ListNode p = null;
         ListNode fwd = null;
         ListNode c = s;
