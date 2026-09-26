@@ -1,7 +1,6 @@
 class Solution {
     public int smallestIndex(int[] arr) {
-        int len = arr.length;
-        for(int i=0;i<len;i++) {
+        for(int i=0;i<arr.length;i++) {
             int n = arr[i];
             int sum = 0;
             while(n!=0) {
